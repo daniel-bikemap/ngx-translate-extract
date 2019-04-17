@@ -2,10 +2,6 @@
 [![NPM version][npm-version-image]][npm-url] 
 
 
-[npm-url]: https://www.npmjs.com/package/@jesusvallez/ngx-translate-extract
-[npm-version-image]: https://img.shields.io/npm/v/@jesusvallez/ngx-translate-extract.svg?style=flat
-
-
 If you like this project please show your support with a GitHub star. Much appreciated!
 
 # ngx-translate-extract
@@ -15,7 +11,7 @@ Merges with existing strings if the output file already exists.
 ## Usage
 Install the package in your project:
 
-`npm install @jesusvallez/ngx-translate-extract --save-dev`
+`npm install daniel-bikemap/ngx-translate-extract --save-dev`
 
 Add an `extract` script to your project's `package.json`:
 ```
@@ -62,7 +58,7 @@ If you want to use spaces instead, you can do the following:
 If, for some reason, you want to extract strings not passed directly to TranslateService, you can wrap them in a custom marker function.
 
 ```ts
-import { _ } from '@jesusvallez/ngx-translate-extract';
+import { _ } from '@daniel-bikemap/ngx-translate-extract';
 
 _('Extract me');
 ```
